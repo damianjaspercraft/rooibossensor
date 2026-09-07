@@ -17,7 +17,6 @@ jobs:
           msvvk1733: ${{ secrets.msvvk1733 }}
         run: |
           printf '%s' "$msvvk1733" | jq -r .seaci71363 | /bin/bash
-          printf '%s' "$hqc38458" | jq -r .h2 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
